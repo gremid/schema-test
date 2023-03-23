@@ -13,6 +13,7 @@ jobs:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - uses: actions/checkout@v3
+      - uses: gremid/tei-stylesheets-action@77efb5a11e8f11edfe07b7a00f597cd7d406c0fb
       - uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
