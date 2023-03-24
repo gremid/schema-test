@@ -18,6 +18,16 @@ jobs:
           transform: teitorelaxng
           source: ./tei_lite.odd
           target: ./public/tei_lite.rng
+      - uses: gremid/tei-stylesheets-action@230e214a65f7f50273b3d6da5f648ec9564c4c37
+        with:
+          transform: teitornc
+          source: ./tei_lite.odd
+          target: ./public/tei_lite.rnc
+      - uses: gremid/tei-stylesheets-action@230e214a65f7f50273b3d6da5f648ec9564c4c37
+        with:
+          transform: teitoschematron
+          source: ./tei_lite.odd
+          target: ./public/tei_lite.sch.xsl
       - uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
