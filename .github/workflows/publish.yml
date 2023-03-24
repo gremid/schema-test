@@ -13,7 +13,7 @@ jobs:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - uses: actions/checkout@v3
-      - uses: gremid/tei-stylesheets-action@8e31f883f128ebe82970dd70742a944007132755
+      - uses: gremid/tei-stylesheets-action@230e214a65f7f50273b3d6da5f648ec9564c4c37
         with:
           transform: teitorelaxng
           source: ./tei_lite.odd
