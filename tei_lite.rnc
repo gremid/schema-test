@@ -7,7 +7,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2023-03-24T09:43:33Z. August 2012.
+# Schema generated from ODD source 2023-03-24T09:48:54Z. August 2012.
 # TEI Edition: Version 4.5.0a. Last updated on
 #         25th October 2022, revision 5406e8d10
 # TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.5.0a./
